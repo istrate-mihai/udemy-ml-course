@@ -1,0 +1,5 @@
+2025-02-26 15:23:59,773 - DEBUG - Logging msg
+2025-02-26 15:23:59,773 - INFO - Logging msg
+2025-02-26 15:23:59,773 - WARNING - Logging msg
+2025-02-26 15:23:59,773 - ERROR - Logging msg
+2025-02-26 15:23:59,773 - CRITICAL - Logging msg
