@@ -1,0 +1,7 @@
+2025-02-27 14:27:52,572 - WARNING - Logging msg
+2025-02-27 14:27:52,572 - ERROR - Logging msg
+2025-02-27 14:27:52,573 - CRITICAL - Logging msg
+2025-02-27 14:27:52,723 - WARNING - Logging msg 2
+2025-02-27 14:27:52,724 - ERROR - Logging msg 2
+2025-02-27 14:27:52,725 - CRITICAL - Logging msg 2
+2025-02-27 14:27 - ERROR - Logging message 3
