@@ -33,13 +33,12 @@ def create_item():
     if not request.json or not 'name' in request.json:
         return jsonify({'error': 'item not found'})
 
-    print(request.json)
-
     new_item = {
         'id': itemList[-1]['id'] + 1 if itemList else 1,
         'name': request.json['name'],
         'description': request.json['description']
     }
+
     itemList.append(new_item)
     return jsonify(new_item)
 
