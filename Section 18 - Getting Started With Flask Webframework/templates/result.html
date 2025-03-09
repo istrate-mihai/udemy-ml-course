@@ -1,0 +1,13 @@
+<h1>
+  <div>
+    {% if data[0] != '' %}
+    <p>Based on the results you have {{ data[0] }}</p>
+    {% endif %}
+  </div>
+
+  {% if data[1] >= 50 %}
+  <h1>You have passed with marks {{ data[1] }}</h1>
+  {% else %}
+  <h1>You have failed with marks {{ data[1] }}</h1>
+  {% endif %}
+</h1>

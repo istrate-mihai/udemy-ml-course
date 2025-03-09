@@ -1,0 +1,19 @@
+<html>
+  <h2>Final results</h2>
+
+  <body>
+    <table border="2">
+      {# This is a comment section #}
+      <tr>
+        <th>Score</th>
+        <th>Result</th>
+      </tr>
+      {% for data in dataList %}
+      <tr>
+        <td>{{ data.score }}</td>
+        <td>{{ data.result }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
